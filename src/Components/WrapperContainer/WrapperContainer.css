@@ -1,0 +1,7 @@
+.wrapper {
+  background: #ffffff;
+  display: flex;
+  max-width: 1000px;
+  margin: 0 auto;
+  box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+}

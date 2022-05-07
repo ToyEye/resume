@@ -1,0 +1,43 @@
+.about-me {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.profession {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 23px;
+  color: #000000;
+}
+.summary {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 23px;
+  color: #000000;
+}
+
+.name {
+  font-size: 32px;
+  font-weight: 700;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  line-height: 40px;
+  color: #000000;
+}
+
+.description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 24px;
+  color: #000000;
+}
+
+.info-container {
+  margin-bottom: 65px;
+  margin-left: 22px;
+}

@@ -1,0 +1,54 @@
+.profession-title {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-top: 10px;
+}
+
+.profession-time {
+  color: #000000;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.divider {
+  color: black;
+}
+.design {
+  font-weight: 400;
+  font-size: 14px;
+}
+.indent {
+  margin-left: 22px;
+}
+.profession-duties {
+  margin-bottom: 30px;
+}
+
+.profession-duties-item {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.education {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.about-me-education {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
+.prof {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+}
