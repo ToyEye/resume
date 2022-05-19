@@ -3,6 +3,13 @@ import "./projects.css";
 
 const projectsArra = [
   {
+    name: "ContactsDB",
+    workLink: null,
+    gitLink: "https://github.com/ToyEye/nodejs-homework-template",
+    technologies: "NodeJS, MongoDB, REST API, Mongoose,Multer, Authorization",
+    about: "Back-end app for storage contacts for users. Role: Contributor.",
+  },
+  {
     name: "Phonebook",
     workLink: "https://kav-phonebook.netlify.app",
     gitLink: "https://github.com/ToyEye/goit-react-hw-08-phonebook",
