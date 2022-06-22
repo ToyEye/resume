@@ -2,12 +2,19 @@ import React from "react";
 import "./projects.css";
 
 const projectsArra = [
+   {
+    name: "Books Reading",
+    workLink: "https://books-reading-react-node.netlify.app/login",
+    gitLink: "https://github.com/IlyaKaplan2002/node-react_project",
+    technologies: "HTML5, CSS3, SASS, React, Redux, API, NodeJS, Express, MongoDB",
+    about: "Mobile-first adaptive landing page. Application for keeping statistics of books read. Work in a team using Scrum. Role: Developer. ",
+  },
   {
     name: "ContactsDB",
     workLink: null,
     gitLink: "https://github.com/ToyEye/nodejs-homework-template",
     technologies: "NodeJS, MongoDB, REST API, Mongoose,Multer, Authorization",
-    about: "Back-end app for storage contacts for users. Role: Contributor.",
+    about: "Back-end app for storage contacts for users. Self project.",
   },
   {
     name: "Phonebook",
@@ -15,7 +22,7 @@ const projectsArra = [
     gitLink: "https://github.com/ToyEye/goit-react-hw-08-phonebook",
     technologies: "HTML5, CSS3, SASS, JavaScript,React, API, WebPack",
     about:
-      "Phone book. Developed user registration and logging. The application can store the contact's name/phone number.",
+      "Phone book. Developed user registration and logging. The application can store the contact's name/phone number. Self project.",
   },
   {
     name: "IMAGE FINDER",
@@ -30,7 +37,7 @@ const projectsArra = [
     gitLink: "https://github.com/andr3008/best-movies",
     technologies: "HTML5, CSS3, SASS, JavaScript,Handlebars, API, Parcel",
     about:
-      "Mobile-first adaptive landing page. Application for choosing a movie. Role: Contributor.",
+      "Mobile-first adaptive landing page. Application for choosing a movie. Work in a team using Scrum. Role: Developer.",
   },
   {
     name: "ICECREAM",
@@ -38,7 +45,7 @@ const projectsArra = [
     gitLink: "https://github.com/Kostiantyn-Radchenko/teams_project",
     technologies: "HTML5, CSS3, SASS, BEM, Parcel",
     about:
-      "Mobile-first adaptive landing page. Work in a team using Scrum. Role:Contributor.",
+      "Mobile-first adaptive landing page. Work in a team using Scrum. Role:Developer.",
   },
   {
     name: "WEB STUDIO",
