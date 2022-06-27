@@ -2,12 +2,14 @@ import React from "react";
 import "./projects.css";
 
 const projectsArra = [
-   {
+  {
     name: "Books Reading",
     workLink: "https://books-reading-react-node.netlify.app/login",
     gitLink: "https://github.com/IlyaKaplan2002/node-react_project",
-    technologies: "HTML5, CSS3, SASS, React, Redux, API, NodeJS, Express, MongoDB",
-    about: "Mobile-first adaptive landing page. Application for keeping statistics of books read. Work in a team using Scrum. Role: Developer. ",
+    technologies:
+      "HTML5, CSS3, SASS, React, Redux, API, NodeJS, Express, MongoDB",
+    about:
+      "Mobile-first adaptive landing page. Application for keeping statistics of books read. Work in a team using Scrum. Role: Developer. ",
   },
   {
     name: "ContactsDB",
@@ -38,21 +40,6 @@ const projectsArra = [
     technologies: "HTML5, CSS3, SASS, JavaScript,Handlebars, API, Parcel",
     about:
       "Mobile-first adaptive landing page. Application for choosing a movie. Work in a team using Scrum. Role: Developer.",
-  },
-  {
-    name: "ICECREAM",
-    workLink: "https://kostiantyn-radchenko.github.io/teams_project/",
-    gitLink: "https://github.com/Kostiantyn-Radchenko/teams_project",
-    technologies: "HTML5, CSS3, SASS, BEM, Parcel",
-    about:
-      "Mobile-first adaptive landing page. Work in a team using Scrum. Role:Developer.",
-  },
-  {
-    name: "WEB STUDIO",
-    workLink: "https://toyeye.github.io/goit-markup-hw-08/",
-    gitLink: "https://github.com/ToyEye/goit-markup-hw-08",
-    technologies: "HTML5, CSS3, SASS, BEM ",
-    about: " Mobile-first adaptive landing page. Self project.",
   },
 ];
 
