@@ -68,7 +68,7 @@ export default function Experience() {
         <div className="indent">
           <h4 className="education">IT School GoIT</h4>
           <h5 className="prof">Full Stack Developer</h5>
-          <span className="profession-time">April 2021 - up to now</span>
+          <span className="profession-time">April 2021 - June 2022</span>
         </div>
 
         <div className="indent">
