@@ -26,9 +26,6 @@ export default function Experience() {
         <p className="design">Achievements:</p>
         <ul className="profession-duties">
           <li className="profession-duties-item">
-            Production and technical engineer.
-          </li>
-          <li className="profession-duties-item">
             Optimization of many processes.
           </li>
           <li className="profession-duties-item">

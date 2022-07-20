@@ -9,7 +9,7 @@ const projectsArra = [
     technologies:
       "HTML5, CSS3, SASS, React, Redux, API, NodeJS, Express, MongoDB",
     about:
-      "Mobile-first adaptive landing page. Application for keeping statistics of books read. Work in a team using Scrum. Role: Developer. ",
+      "Mobile-first adaptive landing page. Application for keeping statistics of books read. Work in a team using Scrum.",
   },
   {
     name: "ContactsDB",
@@ -39,7 +39,7 @@ const projectsArra = [
     gitLink: "https://github.com/andr3008/best-movies",
     technologies: "HTML5, CSS3, SASS, JavaScript,Handlebars, API, Parcel",
     about:
-      "Mobile-first adaptive landing page. Application for choosing a movie. Work in a team using Scrum. Role: Developer.",
+      "Mobile-first adaptive landing page. Application for choosing a movie. Work in a team using Scrum.",
   },
 ];
 
@@ -54,14 +54,14 @@ export default function Projects() {
               {name},
             </a>
             <a className="projects-link" href={gitLink}>
-              Git link
+              GitHub
             </a>
           </p>
+          <p className="design">{about}</p>
           <p className="design">
             Technologies:
             <span className="techno-span">{technologies}</span>
           </p>
-          <p className="design">{about}</p>
         </article>
       ))}
     </div>

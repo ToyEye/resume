@@ -6,7 +6,7 @@ export default function ContactContainer() {
     <div className="contacts-container">
       <h3 className="contacts-title">Contacts</h3>
       <div>
-        <span className="link-type">Odessa city</span>
+        <span className="link-type">Odesa</span>
       </div>
       <div className="contatcs-design">
         <span className="link-type"> </span>
