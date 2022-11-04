@@ -1,7 +1,28 @@
 import React from "react";
 import "./projects.css";
 
-const projectsArra = [
+const commercialArray = [
+  {
+    name: "Be Better",
+    workLink: "https://www.be-better.today",
+    gitLink: "https://github.com/GoWeb-Internship/be-better",
+    technologies:
+      "Gatsby, Tailwindcss, Swiper, yup, i18next, react-hook-form, netlify cms",
+    about:
+      "Mobile-first adaptive landing page. Application for ordering coach services. Work in a team using Scrum.",
+  },
+  {
+    name: "GW-RH",
+    workLink: "https://gw-rh-front-edb7.vercel.app",
+    gitLink: "https://github.com/GoWeb-Internship/gw-rh-front",
+    technologies:
+      "NextJS, Tailwindcss, Swiper, yup, classnames, react-hook-form, react-youtube,Strapy",
+    about:
+      "Mobile-first adaptive landing page. Application for ordering psychologist services. Work in a team using Scrum.",
+  },
+];
+
+const nonCommercialArray = [
   {
     name: "Books Reading",
     workLink: "https://books-reading-react-node.netlify.app/login",
@@ -18,14 +39,7 @@ const projectsArra = [
     technologies: "NodeJS, MongoDB, REST API, Mongoose,Multer, Authorization",
     about: "Back-end app for storage contacts for users. Self project.",
   },
-  {
-    name: "Phonebook",
-    workLink: "https://kav-phonebook.netlify.app",
-    gitLink: "https://github.com/ToyEye/goit-react-hw-08-phonebook",
-    technologies: "HTML5, CSS3, SASS, JavaScript,React, API, WebPack",
-    about:
-      "Phone book. Developed user registration and logging. The application can store the contact's name/phone number. Self project.",
-  },
+
   {
     name: "IMAGE FINDER",
     workLink: "https://toyeye.github.io/goit-react-hw-04-hooks-images/",
@@ -47,23 +61,48 @@ export default function Projects() {
   return (
     <div className="projects-container">
       <h3 className="about-me-title">PROJECTS:</h3>
-      {projectsArra.map(({ name, workLink, gitLink, technologies, about }) => (
-        <article key={name} className="projects-item">
-          <p className="project-name">
-            <a className="projects-link" href={workLink}>
-              {name},
-            </a>
-            <a className="projects-link" href={gitLink}>
-              GitHub
-            </a>
-          </p>
-          <p className="design">{about}</p>
-          <p className="design">
-            Technologies:
-            <span className="techno-span">{technologies}</span>
-          </p>
-        </article>
-      ))}
+      <div className="projects-container__margin">
+        <h4 className="projectsType">Commercial projects:</h4>
+        {commercialArray.map(
+          ({ name, workLink, gitLink, technologies, about }) => (
+            <article key={name} className="projects-item">
+              <p className="project-name">
+                <a className="projects-link" href={workLink}>
+                  {name},
+                </a>
+                <a className="projects-link" href={gitLink}>
+                  GitHub
+                </a>
+              </p>
+              <p className="design">{about}</p>
+              <p className="design">
+                Technologies:
+                <span className="techno-span">{technologies}</span>
+              </p>
+            </article>
+          )
+        )}
+        <h4 className="projectsType">Non-commercial projects:</h4>
+        {nonCommercialArray.map(
+          ({ name, workLink, gitLink, technologies, about }) => (
+            <article key={name} className="projects-item">
+              <p className="project-name">
+                <a className="projects-link" href={workLink}>
+                  {name},
+                </a>
+                <a className="projects-link" href={gitLink}>
+                  GitHub
+                </a>
+              </p>
+              <p className="design">{about}</p>
+              <p className="design">
+                Technologies:
+                <span className="techno-span">{technologies}</span>
+              </p>
+            </article>
+          )
+        )}
+      </div>
     </div>
   );
 }

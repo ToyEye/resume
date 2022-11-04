@@ -29,7 +29,7 @@
 
 .projects-item {
   font-weight: 400;
-  margin-left: 22px;
+
   margin-bottom: 20px;
 }
 .project-name {
@@ -37,4 +37,14 @@
 }
 .projects-container {
   margin-bottom: 55px;
+  /* margin-left: 22px; */
+}
+
+.projects-container__margin {
+  margin-left: 22px;
+}
+
+.projectsType {
+  color: #fb6d3a;
+  margin-bottom: 5px;
 }

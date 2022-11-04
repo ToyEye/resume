@@ -10,6 +10,9 @@ const teackSkillsArr = [
   "React",
   "Redux",
   "NodeJs",
+  "NextJs",
+  "Gatsby",
+  "Tailwind",
   "MongoDB",
   "Mongoose",
 ];
