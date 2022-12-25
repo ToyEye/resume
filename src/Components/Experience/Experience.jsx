@@ -23,16 +23,6 @@ export default function Experience() {
           <li className="profession-duties-item">Checking homework.</li>
           <li className="profession-duties-item">Student consultation.</li>
         </ul>
-
-        {/* <p className="design">Achievements:</p>
-        <ul className="profession-duties">
-          <li className="profession-duties-item">
-            Optimization of many processes.
-          </li>
-          <li className="profession-duties-item">
-            Promotion to head of department.
-          </li>
-        </ul> */}
       </div>
 
       <div className="indent">
