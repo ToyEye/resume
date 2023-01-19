@@ -2,7 +2,7 @@ import React from "react";
 import "./languages.css";
 
 const languagesArr = [
-  "English - Intermediate",
+  "English - Pre-Intermediate",
   "Ukrain - Native",
   "Russian - Native",
 ];

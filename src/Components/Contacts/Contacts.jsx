@@ -10,8 +10,8 @@ export default function ContactContainer() {
       </div>
       <div className="contatcs-design">
         <span className="link-type"> </span>
-        <a className="contacts-link" href="tel:380931898956">
-          +38 067 717 88 60
+        <a className="contacts-link" href="tel:+380974991282">
+          +38 097 499 12 82
         </a>
       </div>
       <div className="contatcs-design">
