@@ -82,7 +82,7 @@ export default function Projects() {
             </article>
           )
         )}
-        <h4 className="projectsType">Non-commercial projects:</h4>
+        <h4 className="projectsType">Pet projects:</h4>
         {nonCommercialArray.map(
           ({ name, workLink, gitLink, technologies, about }) => (
             <article key={name} className="projects-item">
