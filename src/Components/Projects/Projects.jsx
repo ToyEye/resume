@@ -1,7 +1,7 @@
 import React from "react";
 import "./projects.css";
 
-const commercialArray = [
+const projects = [
   {
     name: "Be Better",
     workLink: "https://www.be-better.today",
@@ -20,9 +20,6 @@ const commercialArray = [
     about:
       "Mobile-first adaptive landing page. Application for ordering psychologist services. Work in a team using Scrum.",
   },
-];
-
-const nonCommercialArray = [
   {
     name: "Books Reading",
     workLink: "https://books-reading-react-node.netlify.app/login",
@@ -62,46 +59,23 @@ export default function Projects() {
     <div className="projects-container">
       <h3 className="about-me-title">PROJECTS:</h3>
       <div className="projects-container__margin">
-        <h4 className="projectsType">Commercial projects:</h4>
-        {commercialArray.map(
-          ({ name, workLink, gitLink, technologies, about }) => (
-            <article key={name} className="projects-item">
-              <p className="project-name">
-                <a className="projects-link" href={workLink}>
-                  {name},
-                </a>
-                <a className="projects-link" href={gitLink}>
-                  GitHub
-                </a>
-              </p>
-              <p className="design">{about}</p>
-              <p className="design">
-                Technologies:
-                <span className="techno-span">{technologies}</span>
-              </p>
-            </article>
-          )
-        )}
-        <h4 className="projectsType">Pet projects:</h4>
-        {nonCommercialArray.map(
-          ({ name, workLink, gitLink, technologies, about }) => (
-            <article key={name} className="projects-item">
-              <p className="project-name">
-                <a className="projects-link" href={workLink}>
-                  {name},
-                </a>
-                <a className="projects-link" href={gitLink}>
-                  GitHub
-                </a>
-              </p>
-              <p className="design">{about}</p>
-              <p className="design">
-                Technologies:
-                <span className="techno-span">{technologies}</span>
-              </p>
-            </article>
-          )
-        )}
+        {projects.map(({ name, workLink, gitLink, technologies, about }) => (
+          <article key={name} className="projects-item">
+            <p className="project-name">
+              <a className="projects-link" href={workLink}>
+                {name},
+              </a>
+              <a className="projects-link" href={gitLink}>
+                GitHub
+              </a>
+            </p>
+            <p className="design">{about}</p>
+            <p className="design">
+              Technologies:
+              <span className="techno-span">{technologies}</span>
+            </p>
+          </article>
+        ))}
       </div>
     </div>
   );
