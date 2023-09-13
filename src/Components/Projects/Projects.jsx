@@ -12,13 +12,12 @@ const projects = [
       "Mobile-first adaptive landing page. Application for ordering coach services. Work in a team using Scrum.",
   },
   {
-    name: "GW-RH",
-    workLink: "https://gw-rh-front-edb7.vercel.app",
-    gitLink: "https://github.com/GoWeb-Internship/gw-rh-front",
-    technologies:
-      "NextJS, Tailwindcss, Swiper, yup, classnames, react-hook-form, react-youtube,Strapy",
+    name: "Mimino",
+    workLink: "https://mimino-git-master-toyeye.vercel.app",
+    gitLink: "https://github.com/ToyEye/mimino",
+    technologies: "NextJS, Tailwindcss, Swiper, classnames",
     about:
-      "Mobile-first adaptive landing page. Application for ordering psychologist services. Work in a team using Scrum.",
+      "Mobile-first adaptive. Application for ordering rooms in restarant-honel complex. ",
   },
   {
     name: "Books Reading",
@@ -27,7 +26,7 @@ const projects = [
     technologies:
       "HTML5, CSS3, SASS, React, Redux, API, NodeJS, Express, MongoDB",
     about:
-      "Mobile-first adaptive landing page. Application for keeping statistics of books read. Work in a team using Scrum.",
+      "Mobile-first adaptive. Application for keeping statistics of books read. Work in a team using Scrum.",
   },
   {
     name: "ContactsDB",
