@@ -9,12 +9,9 @@ const teackSkillsArr = [
   "JavaScript",
   "React",
   "Redux",
-  "NodeJs",
   "NextJs",
   "Gatsby",
   "Tailwind",
-  "MongoDB",
-  "Mongoose",
 ];
 
 export default function TechSkills() {
