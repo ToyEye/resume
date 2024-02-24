@@ -5,13 +5,14 @@ const teackSkillsArr = [
   "HTML5",
   "CSS3",
   "GIT",
-  "WebPack",
   "JavaScript",
   "React",
   "Redux",
   "NextJs",
   "Gatsby",
   "Tailwind",
+  "Node",
+  "Express",
 ];
 
 export default function TechSkills() {

@@ -1,11 +1,7 @@
 import React from "react";
 import "./languages.css";
 
-const languagesArr = [
-  "English - Pre-Intermediate",
-  "Ukrain - Native",
-  "Russian - Native",
-];
+const languagesArr = ["English - Pre-Intermediate", "Ukrain - Native"];
 
 export default function Languages() {
   return (
