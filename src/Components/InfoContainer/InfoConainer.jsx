@@ -7,10 +7,17 @@ export default function InfoContainer() {
       <h2 className="profession">Front-end DEVELOPER</h2>
       <h2 className="summary">SUMMARY</h2>
       <p className="description">
-        I am a Front-end developer and I looking for a full-time position. I
-        have good knowledge of HTML, CSS, JavaScript,React. In addition, I have
-        hands-on experience with Agile/Scrum. course work methodology. I want to
-        learn and develop.
+        Dynamic FullStack Developer with a solid foundation in web development
+        technologies such as HTML5, CSS3, SCSS, and GIT, coupled with expertise
+        in JavaScript, React, Redux, NextJs, Tailwind, Node, Express, and
+        TypeScript. Passionate about crafting efficient and user-friendly web
+        applications, with a keen eye for detail and a commitment to delivering
+        high-quality results. Proven ability to collaborate effectively within a
+        team environment, utilizing strong communication and problem-solving
+        skills. Known for being conscientious, calm, and punctual, with a
+        relentless drive to learn and adapt to new technologies. Seeking a
+        full-time position where I can leverage my skills and continue to grow
+        professionally.
       </p>
     </div>
   );
